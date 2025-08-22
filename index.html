@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Olaoluwa Babawale | Data Analyst Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <h1 class="logo">Olaoluwa's Folio<span class="dot">.</span></h1>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+        <h2>Hello, I’m Olaoluwa</h2>
+        <p>Data Analyst skilled in transforming raw data into meaningful insights. Proficient in <b>Excel, Power BI,
+                SQL, and Python</b> with a focus on data storytelling, visualization, and driving data-informed
+            decision-making.</p>
+        <a href="#projects" class="btn">View My Work</a>
+    </section>
+
+    <!-- About -->
+    <section class="about">
+        <h2>Data Analyst</h2>
+        <p>
+            Skilled in <em>data cleaning</em>, <em>EDA</em>,
+            <em>visualization</em>, and <em>reporting</em> using
+            <strong>Excel</strong>, <strong>Power BI</strong>,
+            <strong>SQL</strong>, and <strong>Python</strong>.
+        </p>
+        <p>
+            Experienced in turning <em>raw data</em> into
+            <strong>actionable insights</strong> through
+            <em>interactive dashboards</em>, advanced analytics,
+            and automation. Passionate about solving
+            <em>real-world problems</em> with data and open to
+            <strong>internships</strong>, <strong>entry-level roles</strong>,
+            and <strong>collaborative projects</strong> that drive impact.
+        </p>
+        <ul class="skills">
+            <li><strong>Excel:</strong> Cleaning data, reporting, pivots, advanced formulas</li>
+            <li><strong>Power BI:</strong> Dashboards, KPI tracking, visual storytelling</li>
+            <li><strong>SQL:</strong> Writing queries, managing databases, extracting data</li>
+            <li><strong>Python:</strong> Data cleaning, EDA, automation with Pandas/Matplotlib</li>
+        </ul>
+    </section>
+
+
+    <!-- Skills -->
+    <section class="skill" id="skill">
+        <div class="skill-tags">
+            <span>Excel</span>
+            <span>Power BI</span>
+            <span>SQL</span>
+            <span>Python</span>
+            <span>Data Visualization</span>
+            <span>EDA</span>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="projects" id="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+
+            <div class="project-card">
+                <h3>Payroll Analysis Dashboard</h3>
+                <p>Two-page dashboard analyzing payroll cost, headcount trends, overtime rate, and departmental
+                    variance.</p>
+                <div class="btn-container">
+                    <a href="#" class="btn small">View Demo</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3>Smart Waste Mapping</h3>
+                <p>SQL + Python project to map waste hotspots and optimize pickup schedules in underserved communities.
+                </p>
+                <a href="#" class="btn small">View Repo</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Fitness Analytics</h3>
+                <p>Explored workout trends and habits using Python (pandas + matplotlib), highlighting consistency and
+                    progress.</p>
+                <a href="#" class="btn small">View Notebook</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <p>Interested in working together? Let’s connect.</p>
+        <ul>
+            <li>Email: <a href="mailto:olababstheanalyst@gmail.com">olababstheanalyst@gmail.com</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/olaoluwa-babawale-059043151">Olaoluwa Babawale</a></li>
+            <li>GitHub: <a href="https://github.com/olababsmichael">olababsmichael</a></li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© <span id="year"></span> olaoluwa babawale | Data Analyst</p>
+    </footer>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
