@@ -35,18 +35,7 @@ header {
     position: sticky;
     top: 0;
 }
-.projects {
-  display: flex;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  gap: 1rem;
-}
 
-.project-card {
-  flex: 0 0 auto;
-  scroll-snap-align: start;
-  min-width: 300px;
-}
 .logo {
     font-size: 0.9rem;
     font-weight: bold;
@@ -239,3 +228,4 @@ footer {
     }
 
 }
+
