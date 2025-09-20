@@ -89,7 +89,7 @@ body {
   height: 3px;
   background-color: var(--text);
   position: absolute;
-  left: 0;
+  left:0;
   transition: transform var(--transition-fast);
 }
 .nav-toggle .hamburger::before {
@@ -404,4 +404,13 @@ body {
   color: var(--primary); /* keeps your purple accent */
   font-size: 1.2rem;
   line-height: 1;
+}
+.nav-toggle {
+  position: absolute;
+  top: 38px;
+  right: 15px;   /* adjust this: smaller = closer to edge */
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1000;
 }
