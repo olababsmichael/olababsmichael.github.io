@@ -1,127 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Olaoluwa Babawale | Data Analyst Portfolio</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Main stylesheet -->
     <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
     <!-- Header -->
-    <header>
-        <nav>
-            <h1 class="logo">Olaoluwa's Folio<span class="dot">.</span></h1>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="logo" href="#home" aria-label="Olaoluwa Babawale home">Olaoluwa's Portfolio<span class="dot">.</span></a>
+            <nav class="nav" aria-label="Primary navigation">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact" class="cta">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
     </header>
 
     <!-- Hero -->
-    <section class="hero" id="home">
-        <h2>Hello, I’m Olaoluwa</h2>
-        <p>Data Analyst skilled in transforming raw data into meaningful insights. Proficient in <b>Excel, Power BI,
-                SQL, and Python</b> with a focus on data storytelling, visualization, and driving data-informed
-            decision-making.</p>
-        <a href="#projects" class="btn">View My Work</a>
-    </section>
-
-    <!-- About -->
-    <section class="about">
-        <h2>Data Analyst</h2>
-        <p>
-            Skilled in <em>data cleaning</em>, <em>EDA</em>,
-            <em>visualization</em>, and <em>reporting</em> using
-            <strong>Excel</strong>, <strong>Power BI</strong>,
-            <strong>SQL</strong>, and <strong>Python</strong>.
-        </p>
-        <p>
-            Experienced in turning <em>raw data</em> into
-            <strong>actionable insights</strong> through
-            <em>interactive dashboards</em>, advanced analytics,
-            and automation. Passionate about solving
-            <em>real-world problems</em> with data and open to
-            <strong>internships</strong>, <strong>entry-level roles</strong>,
-            and <strong>collaborative projects</strong> that drive impact.
-        </p>
-        <ul class="skills">
-            <li><strong>Excel:</strong> Cleaning data, reporting, pivots, advanced formulas</li>
-            <li><strong>Power BI:</strong> Dashboards, KPI tracking, visual storytelling</li>
-            <li><strong>SQL:</strong> Writing queries, managing databases, extracting data</li>
-            <li><strong>Python:</strong> Data cleaning, EDA, automation with Pandas/Matplotlib</li>
-        </ul>
-    </section>
-
-
-    <!-- Skills -->
-    <section class="skill" id="skill">
-        <div class="skill-tags">
-            <span>Excel</span>
-            <span>Power BI</span>
-            <span>SQL</span>
-            <span>Python</span>
-            <span>Data Visualization</span>
-            <span>EDA</span>
-        </div>
-    </section>
-
-    <!-- Projects -->
-    <section class="projects" id="projects">
-        <h2>Projects</h2>
-        <div class="project-grid">
-
-            <div class="project-card">
-                <h3>Payroll Analysis Dashboard</h3>
-                <p>Two-page dashboard analyzing payroll cost, headcount trends, overtime rate, and departmental
-                    variance.</p>
-                <div class="btn-container">
-                    <a href="https://github.com/olababsmichael/Public-Sector-Payroll-Transparency-Optimization-" class="btn small">View Repo</a>
+    <main id="home">
+        <section class="hero">
+            <div class="container hero-inner">
+                <div class="hero-left">
+                    <h1 class="hero-title">Hello — I’m <span>Olaoluwa</span></h1>
+                    <p class="hero-sub">Data Analyst skilled in transforming raw data into meaningful insights. Proficient in Excel, Power BI, SQL, and Python with a focus on data storytelling, visualization, and driving data-informed decision-making.</p>
+                    <p class="hero-cta">
+                        <a class="btn" href="#projects">View Projects</a>
+                        <a class="btn btn-ghost" href="#contact">Get in touch</a>
+                    </p>
+                </div>
+                <div class="hero-right">
+                    <img src="olababs.jpg" alt="Olaoluwa Babawale" class="hero-photo" />
                 </div>
             </div>
+        </section>
 
-            <div class="project-card">
-                <h3>Hospital Patient Admissions</h3>
-                <p>Dashboard analyzing hospital admissions by demographics, conditions, insurance, and costs.
-                </p>
-                <a href="https://github.com/olababsmichael/Exploratory-and-Insightful-Analysis-of-Hospital-Patient-Admissions" class="btn small">View Repo</a>
+        <!-- About -->
+        <section class="about" id="about">
+            <div class="container about-inner">
+                <div class="about-media">
+                    <img src="olababs.jpg" alt="Olaoluwa Babawale" class="profile-pic" />
+                </div>
+                <div class="about-content">
+                    <h2>Data Analyst</h2>
+                     <p>
+    Experienced in turning <strong>raw data</strong> into 
+    <em>actionable insights</em> through <strong>interactive dashboards.</strong>I am passionate about solving 
+    <em>real world problems</em> with data and committed to delivering 
+    insights that drive measurable impact.
+  </p>
+  
+                    <ul class="skills-grid">
+                        <li>Excel • Data Transformation</li>
+                        <li>Power BI • Dashboards</li>
+                        <li>SQL • Data Modeling</li>
+                        <li>Python • Pandas & EDA</li>
+                    </ul>
+                </div>
             </div>
+        </section>
 
-            <div class="project-card">
-                <h3>Amazon Product Review Analysis</h3>
-                <p>An Excel powered case study uncovering key insights from Amazon product listings.</p>
-                <a href="https://github.com/olababsmichael/Amazon-Product-Review-Analysis" class="btn small">View Notebook</a>
+        <!-- Skills (small tag list) -->
+        <section class="skill" id="skills">
+            <div class="container">
+                <div class="skill-tags">
+                    <span>Excel</span>
+                    <span>Power BI</span>
+                    <span>SQL</span>
+                    <span>Python</span>
+                    <span>Data Visualization</span>
+                    <span>EDA</span>
+                </div>
             </div>
+        </section>
 
-        </div>
-    </section>
+        <!-- Projects -->
+        <section class="projects" id="projects">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="project-grid">
+                    <article class="project-card">
+                        <h3>Payroll Analysis Dashboard</h3>
+                        <p>Multi-page dashboard analyzing payroll costs, headcount trends and departmental variance.</p>
+                        <div class="card-footer">
+                            <a class="btn small" href="https://github.com/olababsmichael/Public-Sector-Payroll-Transparency-Optimization-" target="_blank" rel="noopener">View Repo</a>
+                        </div>
+                    </article>
 
-    <!-- Contact -->
-    <section class="contact" id="contact">
-        <h2>Contact Me</h2>
-        <p>Interested in working together? Let’s connect.</p>
-        <ul>
-            <li>Email: <a href="mailto:olababstheanalyst@gmail.com">olababstheanalyst@gmail.com</a></li>
-            <li>LinkedIn: <a href="https://www.linkedin.com/in/olaoluwa-babawale-059043151">Olaoluwa Babawale</a></li>
-            <li>GitHub: <a href="https://github.com/olababsmichael">olababsmichael</a></li>
-        </ul>
-    </section>
+                    <article class="project-card">
+                        <h3>Hospital Patient Admissions</h3>
+                        <p>Analysis of admissions by demographics, conditions, and insurance to inform resource planning.</p>
+                        <div class="card-footer">
+                            <a class="btn small" href="https://github.com/olababsmichael/Exploratory-and-Insightful-Analysis-of-Hospital-Patient-Admissions" target="_blank" rel="noopener">View Repo</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <h3>Amazon Product Review</h3>
+                        <p>Structured review analysis with sentiment and category-based insights.</p>
+                        <div class="card-footer">
+                            <a class="btn small" href="https://github.com/olababsmichael/Amazon-Product-Review-Analysis" target="_blank" rel="noopener">View Notebook</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <h3>Fitness Membership Churn & Revenue</h3>
+                        <p>Focused analysis that uncovers churn drivers and revenue leakage across California gyms.</p>
+                        <div class="card-footer">
+                            <a class="btn small" href="https://github.com/olababsmichael/Fitness-Membership-Churn-Revenue-Analysis-California-" target="_blank" rel="noopener">View Project</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="contact" id="contact">
+            <div class="container contact-inner">
+                <div class="contact-left">
+                    <h2>Let’s connect</h2>
+                    <p>Interested in collaborating or hiring? Send a quick message — I respond within 48 hours.</p>
+                    <p class="contact-cta">
+                        <a class="btn" href="mailto:olababstheanalyst@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+                        <a class="btn" href="https://www.linkedin.com/in/olaoluwa-babawale-059043151" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    </p>
+                </div>
+                <div class="contact-right" aria-hidden="true">
+                    <div class="contact-icons">
+                        <a href="mailto:olababstheanalyst@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                        <a href="https://www.linkedin.com/in/olaoluwa-babawale-059043151" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/olababsmichael" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <!-- Footer -->
-    <footer>
-        <p>© <span id="year"></span> olaoluwa babawale | Data Analyst</p>
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div class="footer-left">
+                <span class="footer-logo">OB</span>
+                <small>© <span id="year"></span> Olaoluwa Babawale</small>
+            </div>
+            <div class="footer-right">
+                <small>Designed & built by olababstheanalyst.</small>
+            </div>
+        </div>
     </footer>
 
     <script>
         document.getElementById("year").textContent = new Date().getFullYear();
+
+        // simple mobile nav toggle
+        const toggle = document.querySelector('.nav-toggle');
+        const nav = document.querySelector('.nav-links');
+        toggle.addEventListener('click', () => {
+            const expanded = toggle.getAttribute('aria-expanded') === 'true' || false;
+            toggle.setAttribute('aria-expanded', !expanded);
+            nav.classList.toggle('is-open');
+        });
     </script>
 </body>
-
-
 </html>
-
-
