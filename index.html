@@ -1,220 +1,277 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" class="scroll-smooth">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Olaoluwa Babawale | Data Analyst Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olaoluwa Babawale | Data Analyst Portfolio</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
 
-  <meta name="description"
-    content="Olaoluwa Babawale — Data analyst. Churn reduction, revenue optimization, BI dashboards (Power BI, SQL, Python, Excel)." />
-  <meta property="og:title" content="Olaoluwa Babawale — Data Analyst Portfolio" />
-  <meta property="og:description"
-    content="Data analyst — dashboards, churn analysis, revenue optimization & data storytelling." />
-  <meta property="og:image" content="olababs.jpg" />
-  <meta property="og:type" content="website" />
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-</head>
-
-<body>
-  <header class="site-header" role="banner">
-    <div class="container header-inner">
-      <a class="logo" href="#home" aria-label="Olaoluwa Babawale home">Olaoluwa's Portfolio<span
-          class="dot">.</span></a>
-      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
-        <span class="hamburger"></span>
-      </button>
-      <nav class="nav" aria-label="Primary navigation">
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact" class="cta">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <main id="home">
-    <section class="hero">
-      <div class="hero-inner container">
-        <div class="hero-text">
-          <h1 class="hero-title">Hello, I’m <span>Olaoluwa</span></h1>
-          <p class="hero-sub">
-            <strong>Data Analyst</strong> skilled in transforming raw data into <em>meaningful insights</em>.
-            Proficient in <strong>Excel</strong>, <strong>Power BI</strong>, <strong>SQL</strong>, and
-            <strong>Python</strong> with a focus on <em>data storytelling</em>, <em>visualization</em>, and
-            driving <strong>data-informed decision-making</strong>.
-          </p>
-          <div class="hero-buttons">
-            <a class="btn" href="#projects">View Projects</a>
-            <a class="btn btn-ghost" href="#contact">Get in touch</a>
-          </div>
-        </div>
-        <div class="hero-image">
-          <img src="olababs.jpg" alt="Portrait of Olaoluwa Babawale" />
-        </div>
-      </div>
-    </section>
-
-    <section class="about" id="about">
-      <div class="about-inner container">
-        <div class="about-content">
-          <h2>About Me</h2>
-          <p>Experienced in converting raw data into actionable insights for stakeholder decisions with a focus on churn
-            reduction, revenue optimization, and practical BI dashboards.</p>
-          <p>Open to collaborative projects, internships, and entry-level roles where I can drive measurable impact.</p>
-          <ul class="skills-grid">
-            <li>Excel • Data Transformation</li>
-            <li>Power BI • Dashboards</li>
-            <li>SQL • Data Modeling</li>
-            <li>Python • Pandas & EDA</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section class="skill" id="skills">
-      <div class="container">
-        <div class="skill-tags">
-          <span>Excel</span>
-          <span>Power BI</span>
-          <span>SQL</span>
-          <span>Python</span>
-          <span>Data Visualization</span>
-          <span>EDA</span>
-        </div>
-      </div>
-    </section>
-
-    <section class="projects" id="projects">
-      <div class="container">
-        <h2>Projects</h2>
-        <div class="project-grid">
-
-          <article class="project-card">
-            <img src="/github/payroll.png" alt="Payroll Analysis Dashboard" class="project-image" />
-            <h3>Payroll Analysis Dashboard</h3>
-            <p>Multi-page dashboard analyzing payroll costs, headcount trends and departmental variance.</p>
-            <div class="card-footer">
-              <a class="btn small"
-                href="https://github.com/olababsmichael/Public-Sector-Payroll-Transparency-Optimization-"
-                target="_blank" rel="noopener">View Repo</a>
-            </div>
-          </article>
-
-          <article class="project-card">
-            <img src="/github/Healthcareprojectdashboard.jpg" alt="Hospital Patient Admissions Dashboard"
-              class="project-image" />
-            <h3>Hospital Patient Admissions</h3>
-            <p>Analysis of admissions by demographics, conditions, and insurance to inform resource planning.</p>
-            <div class="card-footer">
-              <a class="btn small"
-                href="https://github.com/olababsmichael/Exploratory-and-Insightful-Analysis-of-Hospital-Patient-Admissions"
-                target="_blank" rel="noopener">View Repo</a>
-            </div>
-          </article>
-
-          <article class="project-card">
-            <img src="/github/Dashboard.jpg" alt="Amazon Product Review Analysis" class="project-image" />
-            <h3>Amazon Product Review</h3>
-            <p>Structured review analysis with sentiment and category-based insights.</p>
-            <div class="card-footer">
-              <a class="btn small" href="https://github.com/olababsmichael/Amazon-Product-Review-Analysis"
-                target="_blank" rel="noopener">View Notebook</a>
-            </div>
-          </article>
-
-          <article class="project-card">
-            <img src="/github/fitness.jpg" alt="Fitness Membership Churn & Revenue" class="project-image" />
-            <h3>Fitness Membership Churn & Revenue</h3>
-            <p>Focused analysis that uncovers churn drivers and revenue leakage across California gyms.</p>
-            <div class="card-footer">
-              <a class="btn small"
-                href="https://github.com/olababsmichael/Fitness-Membership-Churn-Revenue-Analysis-California-"
-                target="_blank" rel="noopener">View Project</a>
-            </div>
-          </article>
-
-          <article class="project-card">
-            <img src="/github/sales.jpg" alt="Sales Data Analysis Project" class="project-image" />
-            <h3>Sales Data Analysis Project</h3>
-            <p>A comprehensive analysis of global sales performance using Power BI, focusing on revenue trends, product
-              insights, manufacturer performance, and geographic market behavior.</p>
-            <div class="card-footer">
-              <a class="btn small" href="https://github.com/olababsmichael/Sales-Analytics-with-Power-BI"
-                target="_blank" rel="noopener">View Project</a>
-            </div>
-          </article>
-
-        </div>
-      </div>
-    </section>
-
-    <section class="contact" id="contact">
-      <div class="container contact-inner">
-        <div class="contact-text">
-          <h2>Let’s connect</h2>
-          <p>Interested in collaborating or hiring? Send a quick message.</p>
-        </div>
-
-        <div class="contact-icons">
-          <!-- Email -->
-          <a href="mailto:olababstheanalyst@gmail.com" aria-label="Email">
-            <i class="fas fa-envelope"></i>
-          </a>
-          <!-- LinkedIn -->
-          <a href="https://www.linkedin.com/in/olaoluwa-babawale-059043151" target="_blank" rel="noopener"
-            aria-label="LinkedIn">
-            <i class="fab fa-linkedin"></i>
-          </a>
-          <!-- GitHub -->
-          <a href="https://github.com/olababsmichael" target="_blank" rel="noopener" aria-label="GitHub">
-            <i class="fab fa-github"></i>
-          </a>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <div class="footer-left">
-        <span class="footer-logo">OB</span>
-        <small>© <span id="year"></span> Olaoluwa Babawale</small>
-      </div>
-      <div class="footer-right">
-        <small>Designed & built by Olaoluwa Michael Babawale.</small>
-      </div>
-    </div>
-  </footer>
-
-  <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-
-    const toggle = document.querySelector('.nav-toggle');
-    const nav = document.querySelector('.nav-links');
-    toggle.addEventListener('click', () => {
-      const expanded = toggle.getAttribute('aria-expanded') === 'true';
-      toggle.setAttribute('aria-expanded', !expanded);
-      nav.classList.toggle('is-open');
-    });
-
-    document.querySelectorAll('.nav-links a').forEach(a => {
-      a.addEventListener('click', () => {
-        if (nav.classList.contains('is-open')) {
-          nav.classList.remove('is-open');
-          toggle.setAttribute('aria-expanded', 'false');
+    <!-- Tailwind CSS (via Play CDN for rapid styling) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#760263',
+              accent: '#1C5E9E',
+            }
+          }
         }
-      })
-    });
-  </script>
-</body>
+      }
+    </script>
 
+    <!-- Import Map for Gemini SDK -->
+    <script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://esm.sh/@google/genai@^1.40.0",
+    "react": "https://esm.sh/react@^19.2.4",
+    "react/": "https://esm.sh/react@^19.2.4/"
+  }
+}
+</script>
+</head>
+<body class="bg-[#FAFAFB] text-[#111827]">
+    
+    <!-- Header -->
+    <!-- <header class="fixed top-0 w-full z-50 glass-morphism"> -->
+        <header class="fixed top-0 left-0 w-full z-50 bg-white/70 backdrop-blur-md border-b border-gray-200">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#home" class="text-xl font-extrabold text-[#760263]">
+                Olaoluwa<span class="text-[#1C5E9E]">.</span>
+            </a>
+
+            <!-- Desktop Nav -->
+            <nav class="hidden md:flex space-x-8 items-center">
+                <a href="#about" class="font-semibold hover:text-[#760263] transition-colors">About</a>
+                <a href="#projects" class="font-semibold hover:text-[#760263] transition-colors">Projects</a>
+                <a href="#ai-insights" class="font-semibold hover:text-[#760263] transition-colors">AI Insights</a>
+                <a href="#contact" class="bg-gradient-to-r from-[#1C5E9E] to-[#760263] text-white px-6 py-2 rounded-full font-bold hover:shadow-lg transition-all transform hover:-translate-y-0.5">
+                    Contact
+                </a>
+            </nav>
+
+            <!-- Mobile Toggle -->
+            <button id="nav-toggle" class="md:hidden text-[#111827]" aria-label="Toggle navigation">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path id="nav-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-b px-6 py-4 flex flex-col space-y-4 shadow-xl">
+            <a href="#about" class="mobile-nav-link font-semibold px-4 py-2 hover:bg-gray-50 rounded-lg">About</a>
+            <a href="#projects" class="mobile-nav-link font-semibold px-4 py-2 hover:bg-gray-50 rounded-lg">Projects</a>
+            <a href="#ai-insights" class="mobile-nav-link font-semibold px-4 py-2 hover:bg-gray-50 rounded-lg">AI Insights</a>
+            <a href="#contact" class="mobile-nav-link font-semibold text-[#760263] px-4 py-2 hover:bg-gray-50 rounded-lg">Contact</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="pt-32 pb-20 md:pt-48 md:pb-32 bg-gradient-to-br from-[#760263] to-[#1C5E9E] rounded-b-[40px] text-white relative overflow-hidden">
+            <div class="absolute inset-0 opacity-10 pointer-events-none">
+                <svg class="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
+                    <path d="M0 100 C 20 0 50 0 100 100 Z" fill="currentColor"></path>
+                </svg>
+            </div>
+            
+            <div class="container mx-auto px-6 relative z-10 flex flex-col md:flex-row items-center gap-12">
+                <div class="flex-1 text-center md:text-left">
+                    <h1 class="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">
+                        Hello, I’m <span class="text-pink-300">Olaoluwa</span>
+                    </h1>
+                    <p class="text-lg md:text-xl mb-8 text-indigo-50 max-w-2xl">
+                        <strong>Data Analyst</strong> specializing in transforming raw numbers into <em>meaningful business stories</em>. 
+                        Focused on <strong>churn reduction</strong>, <strong>revenue optimization</strong>, and <strong>BI dashboards</strong> that actually drive decisions.
+                    </p>
+                    <div class="flex flex-wrap justify-center md:justify-start gap-4">
+                        <a href="#projects" class="bg-white text-[#760263] px-8 py-3 rounded-xl font-bold hover:bg-opacity-90 transition-all shadow-xl">
+                            View Projects
+                        </a>
+                        <a href="#ai-insights" class="border-2 border-white text-white px-8 py-3 rounded-xl font-bold hover:bg-white hover:text-[#760263] transition-all">
+                            Try Analyst AI
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="w-64 h-50 md:w-80 md:h-80 relative">
+                    <div class="absolute inset-0 bg-white opacity-20 blur-3xl rounded-full"></div>
+                    <img 
+                        src="olababs.jpg" 
+                        alt="Olaoluwa" 
+                        class="rounded-2xl shadow-2xl relative z-10 border-4 border-white/20 transform hover:-rotate-3 transition-transform duration-500"
+                    />
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="flex flex-col md:flex-row gap-16 items-center">
+                    <div class="flex-1">
+                        <h2 class="text-3xl font-bold mb-6 text-[#111827]">About Me</h2>
+                        <p class="text-gray-600 text-lg mb-6 leading-relaxed">
+                            I am a results-oriented Data Analyst with a passion for uncovering the "why" behind the numbers. 
+                            My experience spans across healthcare, sales, and subscription-based models where I've successfully 
+                            identified revenue leakages and optimized operational workflows.
+                        </p>
+                        <p class="text-gray-600 text-lg mb-8 leading-relaxed">
+                            I believe that a dashboard is only as good as the action it inspires. 
+                            That's why I focus on clean visualization and robust data modeling using SQL, Power BI, and Python.
+                        </p>
+                        
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="bg-[#FAFAFB] p-4 rounded-lg border-l-4 border-[#760263]">
+                                <h4 class="font-bold text-[#760263]">Revenue Focus</h4>
+                                <p class="text-sm text-gray-500">Uncovering growth opportunities</p>
+                            </div>
+                            <div class="bg-[#FAFAFB] p-4 rounded-lg border-l-4 border-[#1C5E9E]">
+                                <h4 class="font-bold text-[#1C5E9E]">Predictive EDA</h4>
+                                <p class="text-sm text-gray-500">Forecasting churn trends</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex-1 w-full">
+                        <h3 class="text-xl font-bold mb-6">Technical Toolkit</h3>
+                        <div id="skills-container" class="flex flex-wrap gap-3">
+                            <!-- Skills rendered by JS -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="py-24 bg-[#FAFAFB]">
+            <div class="container mx-auto px-6">
+                <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-4">
+                    <div>
+                        <h2 class="text-3xl font-bold mb-4">Featured Projects</h2>
+                        <p class="text-gray-500 max-w-xl">
+                            A selection of my work focusing on end-to-end data pipelines and impactful business visualization.
+                        </p>
+                    </div>
+                    <a href="https://github.com/olababsmichael" class="text-[#1C5E9E] font-bold hover:underline flex items-center gap-2">
+                        View All on GitHub
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
+                    </a>
+                </div>
+
+                <div id="projects-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Projects rendered by JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-24 bg-white">
+            <div class="container mx-auto px-6 text-center">
+                <div class="max-w-3xl mx-auto bg-gradient-to-br from-[#FAFAFB] to-white rounded-[40px] p-12 shadow-inner border border-gray-100">
+                    <h2 class="text-3xl md:text-4xl font-extrabold mb-6">Let's Connect</h2>
+                    <p class="text-gray-600 text-lg mb-10">
+                        Open for full-time roles, internships, or freelance data projects. 
+                        I typically respond within 24 hours.
+                    </p>
+                    
+                    <div class="flex justify-center items-center gap-6 mb-4">
+                        <!-- Email Icon -->
+                        <a href="mailto:olababstheanalyst@gmail.com" aria-label="Email Olaoluwa" class="contact-icon">
+                            <svg class="w-10 h-10" fill="#760263" viewBox="0 0 24 24">
+
+                                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+                                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+                            </svg>
+                        </a>
+
+                        <!-- LinkedIn Icon -->
+                        <a href="https://www.linkedin.com/in/olaoluwa-babawale-059043151" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile" class="contact-icon">
+                            <svg class="w-10 h-10" fill="#1C5E9E" viewBox="0 0 24 24">
+
+                                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                            </svg>
+                        </a>
+
+                        <!-- GitHub Icon -->
+                        <a href="https://github.com/olababsmichael" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile" class="contact-icon">
+                            <svg class="w-10 h-10" fill="#111827" viewBox="0 0 24 24">
+
+
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- AI Insights Section -->
+        <section id="ai-insights" class="py-24 bg-white text-[#111827] overflow-hidden relative scroll-mt-24">
+            <div class="absolute top-0 right-0 w-64 h-64 bg-[#760263] opacity-5 blur-3xl rounded-full translate-x-1/2 -translate-y-1/2"></div>
+            
+            <div class="container mx-auto px-6 relative z-10">
+                <div class="max-w-5xl mx-auto">
+                    <div class="text-center mb-12">
+                        <span class="bg-[#760263] text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest">Powered by Gemini</span>
+                        <h2 class="text-3xl md:text-4xl font-bold mt-4 mb-4 text-[#111827]">Analyst AI Twin</h2>
+                        <p class="text-gray-500 text-lg max-w-2xl mx-auto">
+                            Skip the generic chat. Get structured data strategies tailored to your business challenges.
+                        </p>
+                    </div>
+
+                    <div class="bg-[#FAFAFB] rounded-[40px] p-6 md:p-12 border border-gray-100 shadow-2xl">
+                        <form id="ai-form" class="flex flex-col sm:flex-row gap-2 mb-6">
+    <select id="ai-query" class="flex-1 px-4 py-2 rounded-xl border border-gray-300">
+        <!-- options -->
+    </select>
+    <button id="ai-submit-btn" type="submit" class="w-full sm:w-auto px-6 py-2 bg-[#760263] text-white rounded-xl hover:bg-[#5a0450] transition-all">
+        Generate Insight
+    </button>
+</form>
+
+
+                        <div id="ai-response-container">
+                            <div id="ai-placeholder" class="text-center py-10">
+                                <p class="text-gray-400 mb-8 font-medium italic">Try one of these business scenarios:</p>
+                                <div id="sample-queries" class="flex flex-wrap justify-center gap-4">
+                                    <!-- Sample queries by JS -->
+                                </div>
+                            </div>
+                            <div id="ai-result" class="hidden grid grid-cols-1 lg:grid-cols-3 gap-6 animate-fade-up">
+                                <!-- Insight cards injected by JS -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-[#760263] text-white py-12 rounded-t-[40px]">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8">
+            <div>
+                <span class="text-2xl font-black">OB<span class="text-[#1C5E9E]">.</span></span>
+                <p class="text-white/60 text-sm mt-2">Olaoluwa Babawale</p>
+            </div>
+            <div class="text-center md:text-right">
+                <p class="text-sm">© <span id="current-year"></span> All Rights Reserved.</p>
+                <p class="text-xs text-white/40 mt-1">Crafted with precision & data.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="script.js"></script>
+</body>
 </html>
