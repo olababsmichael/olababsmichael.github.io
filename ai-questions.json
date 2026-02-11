@@ -1,0 +1,112 @@
+[
+  {
+    "question": "How would you optimize payroll management for public sector organizations?",
+    "strategy": "Analyze payroll data to identify cost inefficiencies and streamline reporting processes.",
+    "execution": [
+      "Aggregate salary, allowances, and overtime data in Excel or SQL.",
+      "Identify inconsistencies and anomalies across departments.",
+      "Visualize departmental cost distribution using Power BI dashboards.",
+      "Propose actionable cost-saving measures to HR and finance teams."
+    ],
+    "impact": "Reduces payroll errors, improves transparency, and optimizes salary expenditures."
+  },
+  {
+    "question": "How can data help uncover trends in hospital patient admissions?",
+    "strategy": "Use demographic and admission data to identify high-demand periods and optimize resource allocation.",
+    "execution": [
+      "Collect patient records including age, gender, and conditions.",
+      "Analyze admissions by department and time in Excel or Python.",
+      "Visualize trends and peak periods in Power BI dashboards.",
+      "Provide insights for staffing, bed allocation, and resource planning."
+    ],
+    "impact": "Improves hospital efficiency, reduces wait times, and supports evidence-based planning."
+  },
+  {
+    "question": "How do you analyze Amazon product reviews for actionable insights?",
+    "strategy": "Use NLP and structured analysis to understand customer sentiment and product performance.",
+    "execution": [
+      "Scrape or collect product reviews and ratings data.",
+      "Perform sentiment analysis using Python libraries like Pandas and NLTK.",
+      "Categorize reviews by common themes and keywords.",
+      "Present key insights in dashboards highlighting positive and negative trends."
+    ],
+    "impact": "Helps improve product quality, understand customer pain points, and guide business decisions."
+  },
+  {
+    "question": "How would you reduce churn in a fitness membership business?",
+    "strategy": "Identify churn drivers using usage patterns and member demographics.",
+    "execution": [
+      "Analyze attendance and membership duration in Python or Excel.",
+      "Segment members based on churn risk.",
+      "Visualize trends in Power BI to identify at-risk groups.",
+      "Design personalized retention programs targeting high-risk members."
+    ],
+    "impact": "Lowers churn, improves recurring revenue, and enhances member retention strategies."
+  },
+  {
+    "question": "What insights can be derived from global sales data?",
+    "strategy": "Analyze sales by region, manufacturer, and product to uncover revenue trends and growth opportunities.",
+    "execution": [
+      "Aggregate sales transactions in Power BI or Excel.",
+      "Calculate revenue by manufacturer, country, and category.",
+      "Identify top-performing products and regions using dashboards.",
+      "Provide actionable recommendations to boost underperforming markets."
+    ],
+    "impact": "Supports strategic decisions, improves revenue forecasting, and drives business growth."
+  },
+  {
+    "question": "How do you identify top revenue-generating products?",
+    "strategy": "Rank products by revenue contribution to prioritize business focus.",
+    "execution": [
+      "Calculate total revenue per product in Excel or Power BI.",
+      "Visualize top 10 products using charts.",
+      "Analyze trends to spot seasonal or emerging high-performing products.",
+      "Recommend inventory and marketing adjustments for top performers."
+    ],
+    "impact": "Increases profitability and ensures resource allocation matches revenue potential."
+  },
+  {
+    "question": "How would you clean and validate messy sales datasets?",
+    "strategy": "Ensure data accuracy and consistency to enable reliable analysis.",
+    "execution": [
+      "Remove duplicates, handle missing values, and standardize entries in Excel or Python.",
+      "Normalize product names, categories, and dates.",
+      "Validate numeric fields and cross-check totals.",
+      "Create a clean dataset for visualization and reporting."
+    ],
+    "impact": "Prevents errors in dashboards, ensures accurate business insights, and builds trust with stakeholders."
+  },
+  {
+    "question": "How can Power BI be used to monitor employee performance?",
+    "strategy": "Track KPIs across departments using interactive dashboards.",
+    "execution": [
+      "Collect employee performance metrics like task completion and efficiency.",
+      "Build KPIs in Power BI dashboards with filters and drill-downs.",
+      "Compare departmental performance over time.",
+      "Highlight underperforming areas and suggest targeted improvements."
+    ],
+    "impact": "Enhances transparency, identifies growth opportunities, and improves overall productivity."
+  },
+  {
+    "question": "How do you forecast revenue trends for subscription-based businesses?",
+    "strategy": "Use historical data to predict revenue and identify growth opportunities.",
+    "execution": [
+      "Collect subscription data including plan type and payment history.",
+      "Perform time-series analysis in Excel or Python.",
+      "Visualize revenue trends using Power BI or charts.",
+      "Recommend strategies to increase renewals and reduce churn."
+    ],
+    "impact": "Enables proactive business planning and revenue optimization."
+  },
+  {
+    "question": "How can a dashboard improve decision-making in healthcare?",
+    "strategy": "Visualize key metrics to support operational and strategic choices.",
+    "execution": [
+      "Identify KPIs like patient flow, readmission rate, and bed occupancy.",
+      "Create interactive dashboards in Power BI highlighting trends.",
+      "Enable drill-downs for detailed departmental insights.",
+      "Share dashboards with stakeholders for informed decision-making."
+    ],
+    "impact": "Facilitates data-driven decisions, improves hospital operations, and enhances patient care."
+  }
+]
