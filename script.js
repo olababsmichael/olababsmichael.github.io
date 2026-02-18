@@ -45,6 +45,14 @@ const PROJECTS = [
         image: 'github/sales.jpg',
         tags: ['Power BI', 'DAX'],
         link: 'https://github.com/olababsmichael/Sales-Analytics-with-Power-BI'
+    },
+    {
+        id: '6',
+        title: 'Food Business Intelligence with Python',
+        description: 'An end-to-end data analytics project where I cleaned, transformed, and analyzed a raw food delivery dataset using Python (Pandas).',
+        image: 'python.png',
+        tags: ['Python', 'EDA'],
+        link: 'https://github.com/olababsmichael/Food-Business-Intelligence-with-Python'
     }
 ];
 
@@ -316,3 +324,4 @@ function displayAIResult(data) {
         </div>
     `;
 }
+
